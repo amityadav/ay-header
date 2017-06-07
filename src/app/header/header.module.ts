@@ -1,13 +1,21 @@
+import { BrowserModule } from '@angular/platform-browser';
 import {NgModule, ModuleWithProviders} from '@angular/core';
-import {HeaderComponent} from './header.component';
-/**
- * The Hello World component is an example how to write components in the correct way.
- *
- * @author Daniele Zurico
- */
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+
+import {AmitHeaderComponent} from './header.component';
+
 @NgModule({
-    declarations: [HeaderComponent],
-    exports: [HeaderComponent]
+  declarations: [
+    AmitHeaderComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule
+  ],
+  providers: [],
+  bootstrap: [AmitHeaderComponent]
 })
 
 export class HeaderModule {
