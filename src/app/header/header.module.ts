@@ -18,8 +18,8 @@ import {AmitHeaderComponent} from './header.component';
   bootstrap: [AmitHeaderComponent]
 })
 
-export class HeaderModule {
+export class AmitHeaderModule {
     static forRoot(): ModuleWithProviders {
-        return {ngModule: HeaderModule, providers: []};
+        return {ngModule: AmitHeaderModule, providers: []};
     }
 }
