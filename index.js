@@ -1,1 +1,1 @@
-exports.AmitHeaderModule = require('./src/app/header/header.module').AmitHeaderModule;
+exports.AmitHeaderComponent = require('./src/app/header/header.component').AmitHeaderComponent;
