@@ -1,5 +1,5 @@
 {
-  "compileOnSave": false,
+  "compileOnSave": true,
   "compilerOptions": {
     "declaration": true,
     "emitDecoratorMetadata": true,
@@ -26,6 +26,6 @@
   ],
   "angularCompilerOptions": {
     "skipTemplateCodegen": true,
-    "debug": true
+    "debug": false
   }
 }

@@ -1,14 +1,14 @@
 webpackJsonp([2,4],{
 
-/***/ 162:
+/***/ 155:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(69);
+module.exports = __webpack_require__(65);
 
 
 /***/ }),
 
-/***/ 68:
+/***/ 64:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -17,20 +17,20 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 68;
+webpackEmptyContext.id = 64;
 
 
 /***/ }),
 
-/***/ 69:
+/***/ 65:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__environments_environment__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gendir_app_header_header_module_ngfactory__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__environments_environment__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gendir_app_header_header_module_ngfactory__ = __webpack_require__(70);
 
 
 
@@ -43,7 +43,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["a
 
 /***/ }),
 
-/***/ 74:
+/***/ 68:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -64,13 +64,13 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["a
 
 /***/ }),
 
-/***/ 75:
+/***/ 69:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__header_component_css_shim_ngstyle__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_header_header_component__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__header_component_css_shim_ngstyle__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_header_header_component__ = __webpack_require__(71);
 /* unused harmony export RenderType_AmitHeaderComponent */
 /* unused harmony export View_AmitHeaderComponent_0 */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AmitHeaderComponentNgFactory; });
@@ -84,43 +84,41 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["a
 
 
 var styles_AmitHeaderComponent = [__WEBPACK_IMPORTED_MODULE_0__header_component_css_shim_ngstyle__["a" /* styles */]];
-var RenderType_AmitHeaderComponent = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_14" /* ɵcrt */]({
+var RenderType_AmitHeaderComponent = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_10" /* ɵcrt */]({
     encapsulation: 0,
     styles: styles_AmitHeaderComponent,
     data: {}
 });
 function View_AmitHeaderComponent_0(l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵvid */](0, [
-        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_16" /* ɵeld */](0, null, null, 1, 'p', [], null, null, null, null, null)),
-        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵted */](null, ['\n  This is a sample header from Amit Yadav\n'])),
-        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_17" /* ɵted */](null, ['\n']))
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵvid */](0, [
+        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](0, null, null, 1, 'p', [], null, null, null, null, null)),
+        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_13" /* ɵted */](null, ['\n  This is a sample header from Amit Yadav\n'])),
+        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_13" /* ɵted */](null, ['\n']))
     ], null, null);
 }
 function View_AmitHeaderComponent_Host_0(l) {
-    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵvid */](0, [
-        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_16" /* ɵeld */](0, null, null, 1, 'ay-header', [], null, null, null, View_AmitHeaderComponent_0, RenderType_AmitHeaderComponent)),
-        __WEBPACK_IMPORTED_MODULE_1__angular_core__["_18" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_2__app_header_header_component__["a" /* AmitHeaderComponent */], [], null, null)
+    return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵvid */](0, [
+        (l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](0, null, null, 1, 'ay-header', [], null, null, null, View_AmitHeaderComponent_0, RenderType_AmitHeaderComponent)),
+        __WEBPACK_IMPORTED_MODULE_1__angular_core__["_14" /* ɵdid */](114688, null, 0, __WEBPACK_IMPORTED_MODULE_2__app_header_header_component__["a" /* AmitHeaderComponent */], [], null, null)
     ], function (ck, v) {
         ck(v, 1, 0);
     }, null);
 }
-var AmitHeaderComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_19" /* ɵccf */]('ay-header', __WEBPACK_IMPORTED_MODULE_2__app_header_header_component__["a" /* AmitHeaderComponent */], View_AmitHeaderComponent_Host_0, {}, {}, []);
+var AmitHeaderComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_15" /* ɵccf */]('ay-header', __WEBPACK_IMPORTED_MODULE_2__app_header_header_component__["a" /* AmitHeaderComponent */], View_AmitHeaderComponent_Host_0, {}, {}, []);
 //# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2FtaXR5YWRhdi9EZXNrdG9wL0RldmVsb3BtZW50L0phdmFTY3JpcHQvYXktaGVhZGVyL3NyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMvYW1pdHlhZGF2L0Rlc2t0b3AvRGV2ZWxvcG1lbnQvSmF2YVNjcmlwdC9heS1oZWFkZXIvc3JjL2FwcC9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC50cyIsIm5nOi8vL1VzZXJzL2FtaXR5YWRhdi9EZXNrdG9wL0RldmVsb3BtZW50L0phdmFTY3JpcHQvYXktaGVhZGVyL3NyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL2FtaXR5YWRhdi9EZXNrdG9wL0RldmVsb3BtZW50L0phdmFTY3JpcHQvYXktaGVhZGVyL3NyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQudHMuQW1pdEhlYWRlckNvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxwPlxuICBUaGlzIGlzIGEgc2FtcGxlIGhlYWRlciBmcm9tIEFtaXQgWWFkYXZcbjwvcD5cbiIsIjxheS1oZWFkZXI+PC9heS1oZWFkZXI+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUNBQTtJQUFHO0lBRUM7Ozs7OztJQ0ZKO2dCQUFBOzs7SUFBQTs7OyJ9
 //# sourceMappingURL=/users/amityadav/desktop/development/javascript/ay-header/header.component.ngfactory.js.map
 
 /***/ }),
 
-/***/ 76:
+/***/ 70:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_header_header_module__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__header_component_ngfactory__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_header_header_module__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__header_component_ngfactory__ = __webpack_require__(69);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AmitHeaderModuleNgFactory; });
 /**
  * @fileoverview This file is generated by the Angular template compiler.
@@ -143,263 +141,191 @@ var __extends = (this && this.__extends) || (function () {
 
 
 
-
-
 var AmitHeaderModuleInjector = (function (_super) {
     __extends(AmitHeaderModuleInjector, _super);
     function AmitHeaderModuleInjector(parent) {
-        return _super.call(this, parent, [__WEBPACK_IMPORTED_MODULE_6__header_component_ngfactory__["a" /* AmitHeaderComponentNgFactory */]], [__WEBPACK_IMPORTED_MODULE_6__header_component_ngfactory__["a" /* AmitHeaderComponentNgFactory */]]) || this;
+        return _super.call(this, parent, [__WEBPACK_IMPORTED_MODULE_4__header_component_ngfactory__["a" /* AmitHeaderComponentNgFactory */]], [__WEBPACK_IMPORTED_MODULE_4__header_component_ngfactory__["a" /* AmitHeaderComponentNgFactory */]]) || this;
     }
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_LOCALE_ID_12", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_LOCALE_ID_9", {
         get: function () {
-            if ((this.__LOCALE_ID_12 == null)) {
-                (this.__LOCALE_ID_12 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* ɵn */](this.parent.get(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* LOCALE_ID */], null)));
+            if ((this.__LOCALE_ID_9 == null)) {
+                (this.__LOCALE_ID_9 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* ɵn */](this.parent.get(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* LOCALE_ID */], null)));
             }
-            return this.__LOCALE_ID_12;
+            return this.__LOCALE_ID_9;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_NgLocalization_13", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_NgLocalization_10", {
         get: function () {
-            if ((this.__NgLocalization_13 == null)) {
-                (this.__NgLocalization_13 = new __WEBPACK_IMPORTED_MODULE_2__angular_common__["a" /* NgLocaleLocalization */](this._LOCALE_ID_12));
+            if ((this.__NgLocalization_10 == null)) {
+                (this.__NgLocalization_10 = new __WEBPACK_IMPORTED_MODULE_2__angular_common__["a" /* NgLocaleLocalization */](this._LOCALE_ID_9));
             }
-            return this.__NgLocalization_13;
+            return this.__NgLocalization_10;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_Compiler_14", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_Compiler_11", {
         get: function () {
-            if ((this.__Compiler_14 == null)) {
-                (this.__Compiler_14 = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Compiler */]());
+            if ((this.__Compiler_11 == null)) {
+                (this.__Compiler_11 = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Compiler */]());
             }
-            return this.__Compiler_14;
+            return this.__Compiler_11;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_APP_ID_15", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_APP_ID_12", {
         get: function () {
-            if ((this.__APP_ID_15 == null)) {
-                (this.__APP_ID_15 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* ɵg */]());
+            if ((this.__APP_ID_12 == null)) {
+                (this.__APP_ID_12 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* ɵg */]());
             }
-            return this.__APP_ID_15;
+            return this.__APP_ID_12;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_IterableDiffers_16", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_IterableDiffers_13", {
         get: function () {
-            if ((this.__IterableDiffers_16 == null)) {
-                (this.__IterableDiffers_16 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* ɵl */]());
+            if ((this.__IterableDiffers_13 == null)) {
+                (this.__IterableDiffers_13 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* ɵl */]());
             }
-            return this.__IterableDiffers_16;
+            return this.__IterableDiffers_13;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_KeyValueDiffers_17", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_KeyValueDiffers_14", {
         get: function () {
-            if ((this.__KeyValueDiffers_17 == null)) {
-                (this.__KeyValueDiffers_17 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* ɵm */]());
+            if ((this.__KeyValueDiffers_14 == null)) {
+                (this.__KeyValueDiffers_14 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* ɵm */]());
             }
-            return this.__KeyValueDiffers_17;
+            return this.__KeyValueDiffers_14;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_DomSanitizer_18", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_DomSanitizer_15", {
         get: function () {
-            if ((this.__DomSanitizer_18 == null)) {
-                (this.__DomSanitizer_18 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["b" /* ɵe */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */])));
+            if ((this.__DomSanitizer_15 == null)) {
+                (this.__DomSanitizer_15 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["b" /* ɵe */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */])));
             }
-            return this.__DomSanitizer_18;
+            return this.__DomSanitizer_15;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_Sanitizer_19", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_Sanitizer_16", {
         get: function () {
-            if ((this.__Sanitizer_19 == null)) {
-                (this.__Sanitizer_19 = this._DomSanitizer_18);
+            if ((this.__Sanitizer_16 == null)) {
+                (this.__Sanitizer_16 = this._DomSanitizer_15);
             }
-            return this.__Sanitizer_19;
+            return this.__Sanitizer_16;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_HAMMER_GESTURE_CONFIG_20", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_HAMMER_GESTURE_CONFIG_17", {
         get: function () {
-            if ((this.__HAMMER_GESTURE_CONFIG_20 == null)) {
-                (this.__HAMMER_GESTURE_CONFIG_20 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["d" /* HammerGestureConfig */]());
+            if ((this.__HAMMER_GESTURE_CONFIG_17 == null)) {
+                (this.__HAMMER_GESTURE_CONFIG_17 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["d" /* HammerGestureConfig */]());
             }
-            return this.__HAMMER_GESTURE_CONFIG_20;
+            return this.__HAMMER_GESTURE_CONFIG_17;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_EVENT_MANAGER_PLUGINS_21", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_EVENT_MANAGER_PLUGINS_18", {
         get: function () {
-            if ((this.__EVENT_MANAGER_PLUGINS_21 == null)) {
-                (this.__EVENT_MANAGER_PLUGINS_21 = [
+            if ((this.__EVENT_MANAGER_PLUGINS_18 == null)) {
+                (this.__EVENT_MANAGER_PLUGINS_18 = [
                     new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["e" /* ɵDomEventsPlugin */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */])),
                     new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["f" /* ɵKeyEventsPlugin */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */])),
-                    new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["g" /* ɵHammerGesturesPlugin */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */]), this._HAMMER_GESTURE_CONFIG_20)
+                    new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["g" /* ɵHammerGesturesPlugin */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */]), this._HAMMER_GESTURE_CONFIG_17)
                 ]);
             }
-            return this.__EVENT_MANAGER_PLUGINS_21;
+            return this.__EVENT_MANAGER_PLUGINS_18;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_EventManager_22", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_EventManager_19", {
         get: function () {
-            if ((this.__EventManager_22 == null)) {
-                (this.__EventManager_22 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["h" /* EventManager */](this._EVENT_MANAGER_PLUGINS_21, this.parent.get(__WEBPACK_IMPORTED_MODULE_0__angular_core__["h" /* NgZone */])));
+            if ((this.__EventManager_19 == null)) {
+                (this.__EventManager_19 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["h" /* EventManager */](this._EVENT_MANAGER_PLUGINS_18, this.parent.get(__WEBPACK_IMPORTED_MODULE_0__angular_core__["h" /* NgZone */])));
             }
-            return this.__EventManager_22;
+            return this.__EventManager_19;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_\u0275DomSharedStylesHost_23", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_\u0275DomSharedStylesHost_20", {
         get: function () {
-            if ((this.__ɵDomSharedStylesHost_23 == null)) {
-                (this.__ɵDomSharedStylesHost_23 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["i" /* ɵDomSharedStylesHost */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */])));
+            if ((this.__ɵDomSharedStylesHost_20 == null)) {
+                (this.__ɵDomSharedStylesHost_20 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["i" /* ɵDomSharedStylesHost */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */])));
             }
-            return this.__ɵDomSharedStylesHost_23;
+            return this.__ɵDomSharedStylesHost_20;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_\u0275DomRendererFactory2_24", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_\u0275DomRendererFactory2_21", {
         get: function () {
-            if ((this.__ɵDomRendererFactory2_24 == null)) {
-                (this.__ɵDomRendererFactory2_24 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["j" /* ɵDomRendererFactory2 */](this._EventManager_22, this._ɵDomSharedStylesHost_23));
+            if ((this.__ɵDomRendererFactory2_21 == null)) {
+                (this.__ɵDomRendererFactory2_21 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["j" /* ɵDomRendererFactory2 */](this._EventManager_19, this._ɵDomSharedStylesHost_20));
             }
-            return this.__ɵDomRendererFactory2_24;
+            return this.__ɵDomRendererFactory2_21;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_RendererFactory2_25", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_RendererFactory2_22", {
         get: function () {
-            if ((this.__RendererFactory2_25 == null)) {
-                (this.__RendererFactory2_25 = this._ɵDomRendererFactory2_24);
+            if ((this.__RendererFactory2_22 == null)) {
+                (this.__RendererFactory2_22 = this._ɵDomRendererFactory2_21);
             }
-            return this.__RendererFactory2_25;
+            return this.__RendererFactory2_22;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_\u0275SharedStylesHost_26", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_\u0275SharedStylesHost_23", {
         get: function () {
-            if ((this.__ɵSharedStylesHost_26 == null)) {
-                (this.__ɵSharedStylesHost_26 = this._ɵDomSharedStylesHost_23);
+            if ((this.__ɵSharedStylesHost_23 == null)) {
+                (this.__ɵSharedStylesHost_23 = this._ɵDomSharedStylesHost_20);
             }
-            return this.__ɵSharedStylesHost_26;
+            return this.__ɵSharedStylesHost_23;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_Testability_27", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_Testability_24", {
         get: function () {
-            if ((this.__Testability_27 == null)) {
-                (this.__Testability_27 = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* Testability */](this.parent.get(__WEBPACK_IMPORTED_MODULE_0__angular_core__["h" /* NgZone */])));
+            if ((this.__Testability_24 == null)) {
+                (this.__Testability_24 = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* Testability */](this.parent.get(__WEBPACK_IMPORTED_MODULE_0__angular_core__["h" /* NgZone */])));
             }
-            return this.__Testability_27;
+            return this.__Testability_24;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_Meta_28", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_Meta_25", {
         get: function () {
-            if ((this.__Meta_28 == null)) {
-                (this.__Meta_28 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["k" /* Meta */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */])));
+            if ((this.__Meta_25 == null)) {
+                (this.__Meta_25 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["k" /* Meta */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */])));
             }
-            return this.__Meta_28;
+            return this.__Meta_25;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_Title_29", {
+    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_Title_26", {
         get: function () {
-            if ((this.__Title_29 == null)) {
-                (this.__Title_29 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["l" /* Title */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */])));
+            if ((this.__Title_26 == null)) {
+                (this.__Title_26 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["l" /* Title */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["c" /* DOCUMENT */])));
             }
-            return this.__Title_29;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_\u0275i_30", {
-        get: function () {
-            if ((this.__ɵi_30 == null)) {
-                (this.__ɵi_30 = new __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* ɵi */]());
-            }
-            return this.__ɵi_30;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_BrowserXhr_31", {
-        get: function () {
-            if ((this.__BrowserXhr_31 == null)) {
-                (this.__BrowserXhr_31 = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* BrowserXhr */]());
-            }
-            return this.__BrowserXhr_31;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_ResponseOptions_32", {
-        get: function () {
-            if ((this.__ResponseOptions_32 == null)) {
-                (this.__ResponseOptions_32 = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["b" /* BaseResponseOptions */]());
-            }
-            return this.__ResponseOptions_32;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_XSRFStrategy_33", {
-        get: function () {
-            if ((this.__XSRFStrategy_33 == null)) {
-                (this.__XSRFStrategy_33 = __WEBPACK_IMPORTED_MODULE_5__angular_http__["c" /* ɵb */]());
-            }
-            return this.__XSRFStrategy_33;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_XHRBackend_34", {
-        get: function () {
-            if ((this.__XHRBackend_34 == null)) {
-                (this.__XHRBackend_34 = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["d" /* XHRBackend */](this._BrowserXhr_31, this._ResponseOptions_32, this._XSRFStrategy_33));
-            }
-            return this.__XHRBackend_34;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_RequestOptions_35", {
-        get: function () {
-            if ((this.__RequestOptions_35 == null)) {
-                (this.__RequestOptions_35 = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["e" /* BaseRequestOptions */]());
-            }
-            return this.__RequestOptions_35;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AmitHeaderModuleInjector.prototype, "_Http_36", {
-        get: function () {
-            if ((this.__Http_36 == null)) {
-                (this.__Http_36 = __WEBPACK_IMPORTED_MODULE_5__angular_http__["f" /* ɵc */](this._XHRBackend_34, this._RequestOptions_35));
-            }
-            return this.__Http_36;
+            return this.__Title_26;
         },
         enumerable: true,
         configurable: true
@@ -416,11 +342,8 @@ var AmitHeaderModuleInjector = (function (_super) {
         this._ApplicationRef_5 = this._ɵf_4;
         this._ApplicationModule_6 = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* ApplicationModule */](this._ApplicationRef_5);
         this._BrowserModule_7 = new __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["p" /* BrowserModule */](this.parent.get(__WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["p" /* BrowserModule */], null));
-        this._ɵba_8 = new __WEBPACK_IMPORTED_MODULE_4__angular_forms__["b" /* ɵba */]();
-        this._FormsModule_9 = new __WEBPACK_IMPORTED_MODULE_4__angular_forms__["c" /* FormsModule */]();
-        this._HttpModule_10 = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["g" /* HttpModule */]();
-        this._AmitHeaderModule_11 = new __WEBPACK_IMPORTED_MODULE_1__app_header_header_module__["a" /* AmitHeaderModule */]();
-        return this._AmitHeaderModule_11;
+        this._AmitHeaderModule_8 = new __WEBPACK_IMPORTED_MODULE_1__app_header_header_module__["a" /* AmitHeaderModule */]();
+        return this._AmitHeaderModule_8;
     };
     AmitHeaderModuleInjector.prototype.getInternal = function (token, notFoundResult) {
         if ((token === __WEBPACK_IMPORTED_MODULE_2__angular_common__["b" /* CommonModule */])) {
@@ -447,108 +370,78 @@ var AmitHeaderModuleInjector = (function (_super) {
         if ((token === __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["p" /* BrowserModule */])) {
             return this._BrowserModule_7;
         }
-        if ((token === __WEBPACK_IMPORTED_MODULE_4__angular_forms__["b" /* ɵba */])) {
-            return this._ɵba_8;
-        }
-        if ((token === __WEBPACK_IMPORTED_MODULE_4__angular_forms__["c" /* FormsModule */])) {
-            return this._FormsModule_9;
-        }
-        if ((token === __WEBPACK_IMPORTED_MODULE_5__angular_http__["g" /* HttpModule */])) {
-            return this._HttpModule_10;
-        }
         if ((token === __WEBPACK_IMPORTED_MODULE_1__app_header_header_module__["a" /* AmitHeaderModule */])) {
-            return this._AmitHeaderModule_11;
+            return this._AmitHeaderModule_8;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* LOCALE_ID */])) {
-            return this._LOCALE_ID_12;
+            return this._LOCALE_ID_9;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_2__angular_common__["c" /* NgLocalization */])) {
-            return this._NgLocalization_13;
+            return this._NgLocalization_10;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Compiler */])) {
-            return this._Compiler_14;
+            return this._Compiler_11;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_0__angular_core__["s" /* APP_ID */])) {
-            return this._APP_ID_15;
+            return this._APP_ID_12;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* IterableDiffers */])) {
-            return this._IterableDiffers_16;
+            return this._IterableDiffers_13;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* KeyValueDiffers */])) {
-            return this._KeyValueDiffers_17;
+            return this._KeyValueDiffers_14;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["q" /* DomSanitizer */])) {
-            return this._DomSanitizer_18;
+            return this._DomSanitizer_15;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* Sanitizer */])) {
-            return this._Sanitizer_19;
+            return this._Sanitizer_16;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["r" /* HAMMER_GESTURE_CONFIG */])) {
-            return this._HAMMER_GESTURE_CONFIG_20;
+            return this._HAMMER_GESTURE_CONFIG_17;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["s" /* EVENT_MANAGER_PLUGINS */])) {
-            return this._EVENT_MANAGER_PLUGINS_21;
+            return this._EVENT_MANAGER_PLUGINS_18;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["h" /* EventManager */])) {
-            return this._EventManager_22;
+            return this._EventManager_19;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["i" /* ɵDomSharedStylesHost */])) {
-            return this._ɵDomSharedStylesHost_23;
+            return this._ɵDomSharedStylesHost_20;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["j" /* ɵDomRendererFactory2 */])) {
-            return this._ɵDomRendererFactory2_24;
+            return this._ɵDomRendererFactory2_21;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* RendererFactory2 */])) {
-            return this._RendererFactory2_25;
+            return this._RendererFactory2_22;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["t" /* ɵSharedStylesHost */])) {
-            return this._ɵSharedStylesHost_26;
+            return this._ɵSharedStylesHost_23;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* Testability */])) {
-            return this._Testability_27;
+            return this._Testability_24;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["k" /* Meta */])) {
-            return this._Meta_28;
+            return this._Meta_25;
         }
         if ((token === __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["l" /* Title */])) {
-            return this._Title_29;
-        }
-        if ((token === __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* ɵi */])) {
-            return this._ɵi_30;
-        }
-        if ((token === __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* BrowserXhr */])) {
-            return this._BrowserXhr_31;
-        }
-        if ((token === __WEBPACK_IMPORTED_MODULE_5__angular_http__["h" /* ResponseOptions */])) {
-            return this._ResponseOptions_32;
-        }
-        if ((token === __WEBPACK_IMPORTED_MODULE_5__angular_http__["i" /* XSRFStrategy */])) {
-            return this._XSRFStrategy_33;
-        }
-        if ((token === __WEBPACK_IMPORTED_MODULE_5__angular_http__["d" /* XHRBackend */])) {
-            return this._XHRBackend_34;
-        }
-        if ((token === __WEBPACK_IMPORTED_MODULE_5__angular_http__["j" /* RequestOptions */])) {
-            return this._RequestOptions_35;
-        }
-        if ((token === __WEBPACK_IMPORTED_MODULE_5__angular_http__["k" /* Http */])) {
-            return this._Http_36;
+            return this._Title_26;
         }
         return notFoundResult;
     };
     AmitHeaderModuleInjector.prototype.destroyInternal = function () {
         this._ɵf_4.ngOnDestroy();
-        (this.__ɵDomSharedStylesHost_23 && this._ɵDomSharedStylesHost_23.ngOnDestroy());
+        (this.__ɵDomSharedStylesHost_20 && this._ɵDomSharedStylesHost_20.ngOnDestroy());
     };
     return AmitHeaderModuleInjector;
 }(__WEBPACK_IMPORTED_MODULE_0__angular_core__["x" /* ɵNgModuleInjector */]));
 var AmitHeaderModuleNgFactory = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* NgModuleFactory */](AmitHeaderModuleInjector, __WEBPACK_IMPORTED_MODULE_1__app_header_header_module__["a" /* AmitHeaderModule */]);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2FtaXR5YWRhdi9EZXNrdG9wL0RldmVsb3BtZW50L0phdmFTY3JpcHQvYXktaGVhZGVyL3NyYy9hcHAvaGVhZGVyL2hlYWRlci5tb2R1bGUubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMvYW1pdHlhZGF2L0Rlc2t0b3AvRGV2ZWxvcG1lbnQvSmF2YVNjcmlwdC9heS1oZWFkZXIvc3JjL2FwcC9oZWFkZXIvaGVhZGVyLm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OyJ9
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL2FtaXR5YWRhdi9EZXNrdG9wL0RldmVsb3BtZW50L0phdmFTY3JpcHQvYXktaGVhZGVyL3NyYy9hcHAvaGVhZGVyL2hlYWRlci5tb2R1bGUubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vVXNlcnMvYW1pdHlhZGF2L0Rlc2t0b3AvRGV2ZWxvcG1lbnQvSmF2YVNjcmlwdC9heS1oZWFkZXIvc3JjL2FwcC9oZWFkZXIvaGVhZGVyLm1vZHVsZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIl0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsifQ==
 //# sourceMappingURL=/users/amityadav/desktop/development/javascript/ay-header/header.module.ngfactory.js.map
 
 /***/ }),
 
-/***/ 77:
+/***/ 71:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -566,7 +459,7 @@ var AmitHeaderComponent = (function () {
 
 /***/ }),
 
-/***/ 78:
+/***/ 72:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -584,7 +477,7 @@ var AmitHeaderModule = (function () {
 
 /***/ }),
 
-/***/ 79:
+/***/ 73:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -601,5 +494,5 @@ var environment = {
 
 /***/ })
 
-},[162]);
+},[155]);
 //# sourceMappingURL=main.bundle.js.map

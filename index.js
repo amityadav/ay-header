@@ -1,0 +1,1 @@
+exports.AmitHeaderModule = require('./src/app/header/header.module').AmitHeaderModule;

@@ -1,7 +1,9 @@
 {
   "name": "ay-header",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
