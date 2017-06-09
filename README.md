@@ -1,6 +1,14 @@
 # AyHeader
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.2.
+The reusable component is to create header for new applications. Just install the component and use the tags to generate the navigation bar.
+
+# Installing the component in your application
+npm install git+https://github.com/amityadav/ay-header.git
+
+Then in your app.module.ts import the component
+import {AmitHeaderComponent} from 'ay-header';
+
+and use the tags in your template to generate the navigation bar.
 
 ## Development server
 
